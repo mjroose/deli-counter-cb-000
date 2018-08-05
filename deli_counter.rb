@@ -14,7 +14,8 @@ def line(customers)
 end
 
 def take_a_number(customers, new_customer)
-
+  customers.push(new_customer)
+  puts "Welcome, #{customers.last}. You are number #{customers.length} in line."
 end
 
 def now_serving(customers)
