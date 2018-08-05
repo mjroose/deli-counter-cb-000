@@ -12,3 +12,16 @@ def line(customers)
   end
   puts message
 end
+
+def take_a_number(customers, new_customer)
+
+end
+
+def now_serving(customers)
+  if customers.length == 0
+    puts "There is nobody waiting to be served!"
+  else
+    puts "Currently serving #{customers.first}"
+    customers.shift
+  end
+end
