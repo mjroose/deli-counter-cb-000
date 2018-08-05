@@ -12,5 +12,3 @@ def line(customers)
   end
   puts message
 end
-
-  
