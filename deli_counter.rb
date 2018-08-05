@@ -4,7 +4,6 @@ def line(customers)
   message = "The line is currently"
   if customers.length == 0
     message += " empty."
-    puts "The line is currently empty."
   else
     message += ":"
     customers.each_with_index do |customer, index|
